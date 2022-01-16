@@ -35,7 +35,7 @@ const ranked = ["IRON IV", "IRON III", "IRON II", "IRON I", "BRONZE IV", "BRONZE
 
 async function getChampionName() {
 
-    const risposta = await fetch("http://ddragon.leagueoflegends.com/cdn/9.19.1/data/en_US/champion.json");
+    const risposta = await fetch("https://ddragon.leagueoflegends.com/cdn/9.19.1/data/en_US/champion.json");
     const campioni = await risposta.json();
     const listaCampioni = campioni.data;
 
@@ -145,8 +145,8 @@ function creazionePagina(i, cond, primoAvvio, numpos) {
 
     const nomeCampione = championsInfo.nome[indiceCampione];
     const titoloCampione = championsInfo.titolo[indiceCampione];
-    const imgMastery = `http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${nomeCampione}_0.jpg`;
-    const imgIcon = `http://ddragon.leagueoflegends.com/cdn/12.1.1/img/profileicon/${summonerInfo.profileIconId[i]}.png`
+    const imgMastery = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${nomeCampione}_0.jpg`;
+    const imgIcon = `https://ddragon.leagueoflegends.com/cdn/12.1.1/img/profileicon/${summonerInfo.profileIconId[i]}.png`
 
     console.log("IMG BUGGATE", summonerInfo.name[i], indiceCampione, nomeCampione, titoloCampione, imgMastery, imgIcon);
 
