@@ -1,0 +1,23 @@
+
+###Info Account
+###/lol/summoner/v4/summoners/by-name/{summonerName}?api_key={api_key}
+GET https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/Huzrat?api_key=RGAPI-0561f830-e884-4cf6-a916-3b84b357062b
+
+###Lista Campioni
+https://ddragon.leagueoflegends.com/cdn/12.1.1/data/it_IT/champion.json
+
+###Campione specifico... cdn/12.1.1/data/en_US/champion/{Champion name}
+http://ddragon.leagueoflegends.com/cdn/12.1.1/data/en_US/champion/Aatrox.json
+
+###Get all champion mastery entries sorted by number of champion points descending
+###GET /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}?api_key={api_key}
+https://euw1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/w8jcyY7VnHIU877VgecyxWpoEfPEOgokovAAGjUl5gcWPl4?api_key=RGAPI-0561f830-e884-4cf6-a916-3b84b357062b
+
+
+###/lol/league/v4/entries/by-summoner/{encryptedSummonerId}
+###Get league entries in all queues for a given summoner ID
+https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/jbElwx3cm9db99EH0Oc6T7BbhIgzKUXx9lajLMXcnzI0bog?api_key=RGAPI-0561f830-e884-4cf6-a916-3b84b357062b
+
+###Profile Icons
+GET http://ddragon.leagueoflegends.com/cdn/9.19.1/data/en_US/profileicon.json
+http://ddragon.leagueoflegends.com/cdn/9.19.1/img/profileicon/685.png
