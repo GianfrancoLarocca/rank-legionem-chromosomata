@@ -5,7 +5,7 @@ getAllChampion()
     .catch(err => console.log(err));
 
 async function getAllChampion() {
-    const risposta = await fetch("http://ddragon.leagueoflegends.com/cdn/9.19.1/data/en_US/champion.json");
+    const risposta = await fetch("https://ddragon.leagueoflegends.com/cdn/9.19.1/data/en_US/champion.json");
     const campioni = await risposta.json();
     const listaCampioni = campioni.data;
 
@@ -19,7 +19,7 @@ async function getAllChampion() {
         if (i < 500) {
             const title = listaCampioni[champ].name;
             const body = listaCampioni[champ].blurb;
-            const url = `http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${listaCampioni[champ].id.trim()}_0.jpg`;
+            const url = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${listaCampioni[champ].id.trim()}_0.jpg`;
 
             const newPost = document.importNode(postTemplate.content, true);
             const postTitle = newPost.querySelector('.post__title');
