@@ -51,7 +51,7 @@ console.warn("CHAMPIONS INFO: ", championsInfo)
 
 getChampionName();
 
-setInterval(aggiorna, 1000 * 60 * 2, false);
+setInterval(aggiorna, 1000 * 60 * 3, false);
 
 aggiorna(true);
 async function aggiorna(primoAvvio) {
