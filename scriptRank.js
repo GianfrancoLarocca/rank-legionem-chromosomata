@@ -204,6 +204,7 @@ function calcoloClassifica() {
     console.log("FUNZIONE CALCOLO CLASSIFICA LANCIATA!!!");
 
     const posizionePunti = [];
+    let ultimoClassificato = false;
 
     for (let i = 0; i < legionemChromosomataID.length; i++) {
         posizionePunti.push({
@@ -222,7 +223,13 @@ function calcoloClassifica() {
     let numpos = 0;
     posizionePunti.forEach(elem => {
         console.log(elem);
-        numpos++;
+        if (elem.punti >= 0) {
+            numpos++;
+        }
+        if (elem.punti == -1 && ultimoClassificato == false) {
+            numpos++;
+            ultimoClassificato = true;
+        }
         indOrd = elem.posizione;
         creazionePagina(indOrd, true, false, numpos);
     });
