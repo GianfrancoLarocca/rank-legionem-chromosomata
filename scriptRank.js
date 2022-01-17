@@ -1,5 +1,5 @@
 const legionemChromosomataID = ["lzMsqZcfcfxA7GEeLpeYWhm42CP_jBs3RvjakJzitZBjQDo", "jbElwx3cm9db99EH0Oc6T7BbhIgzKUXx9lajLMXcnzI0bog", "-hW7VeVyiK_9nBHVsapkQqxLKh4mBokgdLrVihIXIvX2XEk", "eAca-NOfskRfo3dhnRAqlnRtwyXvAt-_WXhf4SnWdE-A6rc", "1lAGQ3insh9DmslrUSVIVEfMnmchN5Wl3Lo80oMKG74Oq00", "YPiCmq-d2yF_vGhoORnLTYJbbRTQoY7e6tfDAOJMS0TpmqU", "EkSyZiN5fAFgDbSwo6RNlyWf14gAy_VI2om16h5kTG2UPqj8", "b4Fsz9jgQ6wS-N9PAW7uuyW4fPJVHaid4sUjZEXEtzPmHTQ", "_EEnSNRo8ZIB2_oBAcz3nr9MMW78i2i0e2QaIWS38QJMvo0", "w8jcyY7VnHIU877VgecyxWpoEfPEOgokovAAGjUl5gcWPl4"];
-const api_key = "RGAPI-7099f927-e6dc-4bec-b502-fcfdf1de3896";
+const api_key = "RGAPI-4aea90ad-37b4-4333-a5d8-f35f6b99716b";
 
 const sleep = m => new Promise(r => setTimeout(r, m));
 
