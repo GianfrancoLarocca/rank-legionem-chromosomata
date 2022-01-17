@@ -1,5 +1,26 @@
-const legionemChromosomataID = ["lzMsqZcfcfxA7GEeLpeYWhm42CP_jBs3RvjakJzitZBjQDo", "jbElwx3cm9db99EH0Oc6T7BbhIgzKUXx9lajLMXcnzI0bog", "-hW7VeVyiK_9nBHVsapkQqxLKh4mBokgdLrVihIXIvX2XEk", "eAca-NOfskRfo3dhnRAqlnRtwyXvAt-_WXhf4SnWdE-A6rc", "1lAGQ3insh9DmslrUSVIVEfMnmchN5Wl3Lo80oMKG74Oq00", "YPiCmq-d2yF_vGhoORnLTYJbbRTQoY7e6tfDAOJMS0TpmqU", "EkSyZiN5fAFgDbSwo6RNlyWf14gAy_VI2om16h5kTG2UPqj8", "b4Fsz9jgQ6wS-N9PAW7uuyW4fPJVHaid4sUjZEXEtzPmHTQ", "_EEnSNRo8ZIB2_oBAcz3nr9MMW78i2i0e2QaIWS38QJMvo0", "w8jcyY7VnHIU877VgecyxWpoEfPEOgokovAAGjUl5gcWPl4"];
-const api_key = "RGAPI-4aea90ad-37b4-4333-a5d8-f35f6b99716b";
+/*
+500insta: "LgQm55Hgo4FbXxATdCzi5CHAp98ECF2nJzZmTIu9_cpnW0O5rWTkpij8qA",
+MiaMalkova POV: "Si3hY1zfdN68HQwzv1j-FqRN1RFIIiwzcewTVjv32NI7hFY",
+noMAD111: "_tTnQ1ONUsDsuicomKmE5I2pBsVorjaMMmKW8M2m8T6fSRpv",
+robyx93: "H1-AjoGzO3QTlm2-uKHeAa5tCpHKjS_JiKE4t7IcEw1LTakL",  =============> REMOVED
+SorC  Hanniball: "rvpxxq8SDqK_eZxKzbA6LZ-Usi97Tf50y0Y3bV2TSiVgtOY",
+Spiro1991: "JEGeqsIzFd43Fe3h7ePiymSu9VsiEB5ss9lAesPi2svCVzc",
+xVenenox: "zxsPAQFIcxWndnp5Ucgsblmwsy39oeVJqVpqLZbrinlFf4g",
+Sugoooo1: "ykiKez1ja3JIXFQQ6UxP0Yih3NdBYiMA1-Z5H2ZP_vD2TqRf",
+pastaaaa1: "GT39cTajRuwJpCvb_wlk4spdtbQd-8WIXoCVZGa4QNJBlmAE",
+Never0A0Joy: "VSmra0B9as6VCv_1fZ5A1viaYBj7xEp0_HCJmAwdubmPWAk",
+Flham: "AS-FWPRceTIL-JMXsF5u703WJBp-6rTz-ko1PnRg7X_0SQk9",
+Naxeen: "UpMIbRoqv8x-9pOmdrn5-2u4quw-IHbdOTOTToirV7W6ez8",
+Gian0ki: "3DPHZCRJjqHlSzgS970esuK8aXa_C1sTrxua2y0duwa8FF4",
+H4nc0ckWIK: "oH1QmPA7HU49GGG27K6VbYNeRzZOaq5CYmRhln-QmP1JXoUH",
+Zgunci: "WfubUfK6Ew19JDxORw2OFs1syW9gdklDBvD5zs-UBFXcB6Yr",
+*/
+
+const legionemChromosomataID = ["lzMsqZcfcfxA7GEeLpeYWhm42CP_jBs3RvjakJzitZBjQDo", "jbElwx3cm9db99EH0Oc6T7BbhIgzKUXx9lajLMXcnzI0bog", "-hW7VeVyiK_9nBHVsapkQqxLKh4mBokgdLrVihIXIvX2XEk", "eAca-NOfskRfo3dhnRAqlnRtwyXvAt-_WXhf4SnWdE-A6rc", "1lAGQ3insh9DmslrUSVIVEfMnmchN5Wl3Lo80oMKG74Oq00", "YPiCmq-d2yF_vGhoORnLTYJbbRTQoY7e6tfDAOJMS0TpmqU", "EkSyZiN5fAFgDbSwo6RNlyWf14gAy_VI2om16h5kTG2UPqj8", "b4Fsz9jgQ6wS-N9PAW7uuyW4fPJVHaid4sUjZEXEtzPmHTQ", "_EEnSNRo8ZIB2_oBAcz3nr9MMW78i2i0e2QaIWS38QJMvo0", "w8jcyY7VnHIU877VgecyxWpoEfPEOgokovAAGjUl5gcWPl4",
+    "LgQm55Hgo4FbXxATdCzi5CHAp98ECF2nJzZmTIu9_cpnW0O5rWTkpij8qA", "Si3hY1zfdN68HQwzv1j-FqRN1RFIIiwzcewTVjv32NI7hFY", "_tTnQ1ONUsDsuicomKmE5I2pBsVorjaMMmKW8M2m8T6fSRpv", "rvpxxq8SDqK_eZxKzbA6LZ-Usi97Tf50y0Y3bV2TSiVgtOY", "JEGeqsIzFd43Fe3h7ePiymSu9VsiEB5ss9lAesPi2svCVzc", "zxsPAQFIcxWndnp5Ucgsblmwsy39oeVJqVpqLZbrinlFf4g", "ykiKez1ja3JIXFQQ6UxP0Yih3NdBYiMA1-Z5H2ZP_vD2TqRf", "GT39cTajRuwJpCvb_wlk4spdtbQd-8WIXoCVZGa4QNJBlmAE", "VSmra0B9as6VCv_1fZ5A1viaYBj7xEp0_HCJmAwdubmPWAk",
+    "AS-FWPRceTIL-JMXsF5u703WJBp-6rTz-ko1PnRg7X_0SQk9", "UpMIbRoqv8x-9pOmdrn5-2u4quw-IHbdOTOTToirV7W6ez8", "3DPHZCRJjqHlSzgS970esuK8aXa_C1sTrxua2y0duwa8FF4", "oH1QmPA7HU49GGG27K6VbYNeRzZOaq5CYmRhln-QmP1JXoUH", "WfubUfK6Ew19JDxORw2OFs1syW9gdklDBvD5zs-UBFXcB6Yr"
+];
+const api_key = "RGAPI-57058025-d74f-493e-bf34-b84e23676c82";
 
 const sleep = m => new Promise(r => setTimeout(r, m));
 
@@ -97,7 +118,7 @@ async function aggiorna(primoAvvio) {
                 summonerInfo.championPoints[i] = obj[0].championPoints;
             }
             if (url === urls[2]) {
-                console.error("terza risposta!");
+                console.error("terza risposta!", obj[0]);
                 if (obj.length > 0 && obj[0].queueType === "RANKED_SOLO_5x5") {
                     console.log(obj[0].tier, obj[0].rank)
                     summonerInfo.losses[i] = obj[0].losses;
@@ -116,7 +137,14 @@ async function aggiorna(primoAvvio) {
             }
         });
 
-        await sleep(500);
+        if (i == legionemChromosomataID.length - 1) {
+            await sleep(750);
+            console.log("await 750");
+        } else {
+            await sleep(200);
+            console.log("await 200");
+        }
+
         if (primoAvvio == true) {
             creazionePagina(i, false, primoAvvio, i + 1);
         }
@@ -130,11 +158,11 @@ async function aggiorna(primoAvvio) {
 var postSection;
 var postTemplate;
 
+console.warn("SUMMONER INFO", summonerInfo);
+
 function creazionePagina(i, cond, primoAvvio, numpos) {
 
     console.log("FUNZIONE CREAZIONE PAGINA LANCIATA!!!", i, cond, primoAvvio);
-
-    console.warn(summonerInfo);
 
     postSection = document.querySelector('#posts');
     postTemplate = document.querySelector('#post-template');
@@ -170,7 +198,7 @@ function creazionePagina(i, cond, primoAvvio, numpos) {
 
     puntiChamp.innerText = summonerInfo.championPoints[i];
     if (summonerInfo.rank[i] != "valore assente") {
-        dati.innerText = `${summonerInfo.tier[i]} ${summonerInfo.rank[i]}\n${summonerInfo.puntiLega[i]} punti\n Wins: ${summonerInfo.wins[i]} - Losses: ${summonerInfo.losses[i]}\n`;
+        dati.innerText = `${summonerInfo.tier[i]} ${summonerInfo.rank[i]}\n${summonerInfo.puntiLega[i]} punti\n Wins: ${summonerInfo.wins[i]}\nLosses: ${summonerInfo.losses[i]}\n`;
         let imgRankSrc = `ranked-emblems/${summonerInfo.tier[i]}.png`;
         let imgRank = document.createElement('img');
         imgRank.src = imgRankSrc;

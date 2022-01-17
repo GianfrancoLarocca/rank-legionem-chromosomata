@@ -18,6 +18,7 @@ h1 {
 
 #titolo_pagina {
     border-bottom: 2px solid #272727;
+    width: 100vmax;
 }
 
 #posts {
