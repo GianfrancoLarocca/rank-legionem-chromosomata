@@ -68,7 +68,13 @@ h1 {
 #punti_campione {
     color: #c98900;
     margin-bottom: 3%;
-    border-bottom: 2px solid #272727;
+    /*border-bottom: 2px solid #272727;*/
+}
+
+#separatore {
+    border-bottom: 10px solid black;
+    margin: 0;
+    padding: 0;
 }
 
 #lvl_summoner {
@@ -79,6 +85,7 @@ h1 {
     color: #ff0000;
     font-size: xx-large;
     text-align: center;
+    width: 100vmax;
 }
 
 a:link,
