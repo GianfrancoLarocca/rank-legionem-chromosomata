@@ -20,7 +20,7 @@ const legionemChromosomataID = ["lzMsqZcfcfxA7GEeLpeYWhm42CP_jBs3RvjakJzitZBjQDo
     "LgQm55Hgo4FbXxATdCzi5CHAp98ECF2nJzZmTIu9_cpnW0O5rWTkpij8qA", "Si3hY1zfdN68HQwzv1j-FqRN1RFIIiwzcewTVjv32NI7hFY", "_tTnQ1ONUsDsuicomKmE5I2pBsVorjaMMmKW8M2m8T6fSRpv", "rvpxxq8SDqK_eZxKzbA6LZ-Usi97Tf50y0Y3bV2TSiVgtOY", "JEGeqsIzFd43Fe3h7ePiymSu9VsiEB5ss9lAesPi2svCVzc", "zxsPAQFIcxWndnp5Ucgsblmwsy39oeVJqVpqLZbrinlFf4g", "ykiKez1ja3JIXFQQ6UxP0Yih3NdBYiMA1-Z5H2ZP_vD2TqRf", "GT39cTajRuwJpCvb_wlk4spdtbQd-8WIXoCVZGa4QNJBlmAE", "VSmra0B9as6VCv_1fZ5A1viaYBj7xEp0_HCJmAwdubmPWAk",
     "AS-FWPRceTIL-JMXsF5u703WJBp-6rTz-ko1PnRg7X_0SQk9", "UpMIbRoqv8x-9pOmdrn5-2u4quw-IHbdOTOTToirV7W6ez8", "3DPHZCRJjqHlSzgS970esuK8aXa_C1sTrxua2y0duwa8FF4", "oH1QmPA7HU49GGG27K6VbYNeRzZOaq5CYmRhln-QmP1JXoUH", "WfubUfK6Ew19JDxORw2OFs1syW9gdklDBvD5zs-UBFXcB6Yr"
 ];
-const api_key = "RGAPI-57058025-d74f-493e-bf34-b84e23676c82";
+const api_key = "RGAPI-045bb436-45f4-4181-9db9-db7226e8c64d";
 
 const sleep = m => new Promise(r => setTimeout(r, m));
 
