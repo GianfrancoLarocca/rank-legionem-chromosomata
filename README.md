@@ -1,2 +1,2 @@
-# Git Rank Legionem Chromosomata
-Rank Legionem Chromosomata
+# Rank Legionem Chromosomata
+[Home Page](https://giancotsu.github.io/rank-legionem-chromosomata/)
